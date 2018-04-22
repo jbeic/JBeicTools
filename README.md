@@ -18,6 +18,7 @@ com.jbeic.tools.url.JHttp
 * httpclient 无参数Post请求
 * @param url
 * @return String
+
 com.jbeic.tools.url.JHttp.HttpPost(String)
 
 * 2018-4-22 18:10:29
@@ -25,10 +26,12 @@ com.jbeic.tools.url.JHttp.HttpPost(String)
 * @param url
 * @param postData 参数
 * @return String
+
 com.jbeic.tools.url.JHttp.HttpPost(String, ArrayList<NameValuePair>)
 
 * 2018-4-22 18:12:31
 * httpclient get请求
 * @param url
 * @return string
+
 com.jbeic.tools.url.JHttp.HttpGet(String)
