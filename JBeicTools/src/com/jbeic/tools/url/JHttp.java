@@ -74,7 +74,7 @@ public class JHttp {
 	/**
 	 * httpclient 无参数Post请求
 	 * @param url
-	 * @return
+	 * @return String
 	 */
 	public static String HttpPost(String url) {
 		String data = "";
