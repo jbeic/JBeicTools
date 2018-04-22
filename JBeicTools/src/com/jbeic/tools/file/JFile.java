@@ -6,7 +6,7 @@ import java.net.URL;
 public class JFile {
 
 	/**
-	 * »ñÈ¡ÍøÂçÎÄ¼şµÄ´óĞ¡
+	 * è·å–ç½‘ç»œæ–‡ä»¶çš„å¤§å°
 	 * @param urlString
 	 * @return
 	 */
@@ -16,15 +16,15 @@ public class JFile {
 		HttpURLConnection urlcon = null;
 		try {
 			url = new URL(urlfile);
-			// ´ò¿ªÁ¬½Ó
+			// æ‰“å¼€è¿æ¥
 			urlcon = (HttpURLConnection) url.openConnection();
-			// »ñÈ¡ÎÄ¼ş´óĞ¡
+			// è·å–æ–‡ä»¶å¤§å°
 			length = urlcon.getContentLength();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			if (urlcon != null) {
-				// ¹Ø±ÕÁ¬½Ó, ÊÍ·Å×ÊÔ´
+				// å…³é—­è¿æ¥, é‡Šæ”¾èµ„æº
 				urlcon.disconnect();
 			}
 		}
